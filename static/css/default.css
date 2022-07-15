@@ -1,0 +1,135 @@
+/* Genereal */
+
+:root {
+    --bg-color: #1E1E1E;
+    --accent-color: #464646;
+    --accent-color2: #FFFFFF;
+    --text-color: #FFFFFF;
+    --text-color2: #383838;
+    --intralink-color: #DA3838;
+    --interlink-color: #50EF3E; 
+}
+html {
+    font-family: 'Mulish', sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* Body */
+
+body {
+    margin: auto;
+    max-width: 1200px;
+    text-align: left;
+}
+article {
+    font-size: 24px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+section {
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+header {
+    font-size: 62px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+}
+footer {
+    font-size: 24px;
+    color: var(--text-color2);
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Navigation bar */
+
+nav {
+    font-size: 28px;
+    text-align: right;
+    word-spacing: 10px;
+}
+.navigation-bar {
+    max-width: 120%;
+}
+.navigation-bar-title-link {
+    font-size: 30.4px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: left;
+}
+
+/* Links */
+
+a {
+    color: var(--intralink-color);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 49.6px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 43.2px;
+    font-weight: 600;
+}
+h4 {
+    font-size: 36.8px;
+    font-weight: 500;
+}
+h5 {
+    font-size: 30.4px;
+    font-weight: 400;
+}
+h6 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* Lists */
+
+ul ol {
+}
+li {
+    list-style-type: disc;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+/* Other items */
+
+hr {
+    height: 1px;
+    background-color: var(--accent-color);
+    border: none;
+}
+
+/* Scaling */
+
+@media screen and (max-width: 320px) {
+    @viewport {
+        width: 320px;
+        font-size: 60%;
+    }
+}

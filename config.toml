@@ -1,0 +1,47 @@
+baseURL = ""
+title = "Petr Geršl"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+uglyURLs = "false"
+[params]
+    description = "Personal website of Petr Geršl"
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = "1"
+    [[menu.main]]
+        identifier = "research"
+        name = "Research"
+        url = "/research"
+        weight = "2"
+    [[menu.main]]
+        identifier = "articles"
+        name = "Articles"
+        url = "/articles"
+        weight = "3"
+    [[menu.main]]
+        identifier = "music"
+        name = "Music"
+        url = "/music"
+        weight = "4"
+    [[menu.main]]
+        identifier = "photos"
+        name = "Photos"
+        url = "/photos"
+        weight = "5"
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = "6"
+[frontmatter]
+    date = ['date', 'publishDate', 'lastmod']
+    expiryDate = ['expiryDate']
+    lastmod = [':git', 'lastmod', 'date', 'publishDate']
+    publishDate = ['publishDate', 'date']
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = "true"
