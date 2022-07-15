@@ -1,2 +1,2 @@
 # Hello
-My name is Petr Geršl. This is the code for my website. I am not a programmer, this is actually my first programming project. Doing my website, I would like to learn HTML and CSS, the markup languages, Python and JS. It will take some time, but I am ready to pu it into this.
+My name is Petr Geršl. This is the code for my website. I am not a programmer, this is actually my first programming project. Doing my website, I would like to learn HTML and CSS, the markup languages, Python and JS. It will take some time, but I am ready to put it into this.
