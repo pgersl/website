@@ -121,6 +121,9 @@ li {
     line-height: 2;
     letter-spacing: 1px; 
 }
+#list-list {
+    list-style-type: none;
+}
 
 /* Other items */
 
