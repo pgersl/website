@@ -4,10 +4,13 @@
     --bg-color: #1E1E1E;
     --accent-color: #464646;
     --accent-color2: #FFFFFF;
-    --text-color: #FFFFFF;
-    --text-color2: #383838;
     --intralink-color: #DA3838;
-    --interlink-color: #50EF3E; 
+    --interlink-color: #50EF3E;
+
+    --text-size: 18px;
+    --text-size-h5: 24.4px;
+    --text-color: #FFFFFF;
+    --text-color2: #383838; 
 }
 html {
     font-family: 'Mulish', sans-serif;
@@ -23,19 +26,19 @@ body {
     text-align: left;
 }
 article {
-    font-size: 24px;
+    font-size: var(--text-size);
     margin: auto;
     padding: 20px 20px 20px 20px;
 }
 section {
-    font-size: 24px;
+    font-size: var(--text-size);
     text-align: center;
     align-items: center;
     margin: auto;
     padding: 20px 20px 20px 20px;
 }
 header {
-    font-size: 62px;
+    font-size: 58px;
     font-weight: 600;
     color: var(--text-color);
     text-align: center;
@@ -43,7 +46,7 @@ header {
     padding: 50px 50px 50px 50px;
 }
 footer {
-    font-size: 24px;
+    font-size: var(--text-size);
     color: var(--text-color2);
     text-align: center;
     padding: 50px 50px 50px 50px;
@@ -56,7 +59,7 @@ p {
 /* Navigation bar */
 
 nav {
-    font-size: 28px;
+    font-size: 20px;
     text-align: right;
     word-spacing: 10px;
 }
@@ -68,6 +71,9 @@ nav {
     font-weight: 700;
     color: var(--text-color);
     text-align: left;
+}
+#index-navigation-bar-content {
+    font-size: var(--text-size-h5);
 }
 
 /* Links */
@@ -83,27 +89,27 @@ a:hover {
 /* Headings */
 
 h1 {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 600;
 }
 h2 {
-    font-size: 49.6px;
+    font-size: 43.6px;
     font-weight: 600;
 }
 h3 {
-    font-size: 43.2px;
+    font-size: 37.2px;
     font-weight: 600;
 }
 h4 {
-    font-size: 36.8px;
+    font-size: 30.8px;
     font-weight: 500;
 }
 h5 {
-    font-size: 30.4px;
+    font-size: var(--text-size-h5);
     font-weight: 400;
 }
 h6 {
-    font-size: 24px;
+    font-size: var(--text-size);
     font-weight: 300;
 }
 
