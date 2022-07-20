@@ -7,8 +7,9 @@
     --intralink-color: #DA3838;
     --interlink-color: #50EF3E;
 
-    --text-size: 18px;
-    --text-size-h5: 24.4px;
+    --text-size: 1.05em;
+    --text-size-h5: 1.34em;
+    --font-weight: 700;
     --text-color: #FFFFFF;
     --text-color2: #383838; 
 }
@@ -22,7 +23,7 @@ html {
 
 body {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1100px;
     text-align: left;
 }
 article {
@@ -39,7 +40,7 @@ section {
 }
 header {
     font-size: 58px;
-    font-weight: 600;
+    font-weight: var(--font-weight);
     color: var(--text-color);
     text-align: center;
     margin: auto;
@@ -59,7 +60,7 @@ p {
 /* Navigation bar */
 
 nav {
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: right;
     word-spacing: 10px;
 }
@@ -67,8 +68,8 @@ nav {
     max-width: 120%;
 }
 #navigation-bar-title-link {
-    font-size: 30.4px;
-    font-weight: 700;
+    font-size: var(--text-size-h5);
+    font-weight: var(--font-weight);
     color: var(--text-color);
     text-align: left;
 }
@@ -89,36 +90,36 @@ a:hover {
 /* Headings */
 
 h1 {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 2.5em;
+    font-weight: var(--font-weight);
 }
 h2 {
-    font-size: 43.6px;
-    font-weight: 600;
+    font-size: 2.21em;
+    font-weight: var(--font-weight);
 }
 h3 {
-    font-size: 37.2px;
-    font-weight: 600;
+    font-size: 1.92em;
+    font-weight: var(--font-weight);
 }
 h4 {
-    font-size: 30.8px;
-    font-weight: 500;
+    font-size: 1.63em;
+    font-weight: var(--font-weight);
 }
 h5 {
     font-size: var(--text-size-h5);
-    font-weight: 400;
+    font-weight: var(--font-weight);
 }
 h6 {
     font-size: var(--text-size);
-    font-weight: 300;
+    font-weight: var(--font-weight);
 }
 
 /* Lists */
 
 li {
     list-style-type: disc;
-    letter-spacing: 1px;
     line-height: 2;
+    letter-spacing: 1px; 
 }
 
 /* Other items */
@@ -131,9 +132,8 @@ hr {
 
 /* Scaling */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px){
     @viewport {
         width: 320px;
-        font-size: 60%;
     }
 }
