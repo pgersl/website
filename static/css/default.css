@@ -60,10 +60,10 @@ nav {
     text-align: right;
     word-spacing: 10px;
 }
-.navigation-bar {
+#navigation-bar {
     max-width: 120%;
 }
-.navigation-bar-title-link {
+#navigation-bar-title-link {
     font-size: 30.4px;
     font-weight: 700;
     color: var(--text-color);
@@ -109,8 +109,6 @@ h6 {
 
 /* Lists */
 
-ul ol {
-}
 li {
     list-style-type: disc;
     letter-spacing: 1px;

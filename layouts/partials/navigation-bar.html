@@ -1,10 +1,10 @@
-<div id="navigation-bar" class="navigation-bar">
-    <div id="navigation-bar-title" class="navigation-bar-title">
-        <a href="{{.Site.BaseURL}}" class="navigation-bar-title-link">
+<div id="navigation-bar">
+    <div id="navigation-bar-title">
+        <a href="{{.Site.BaseURL}}">
             {{.Site.Title}}
         </a>
     </div>
-    <div id="navigation-bar-content" class="navigation-bar-content">
+    <div id="navigation-bar-content">
         <nav>
                 {{range.Site.Menus.main}}
                     <a href="{{.URL}}">{{.Name}}</a>
